@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+
+        margin: 0;
+    }
+
+    .container1 {
+        height: 600px;
+        background-color: #C8F4DE;
+        position: relative;
+    }
+
+    .cloud1 {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+    }
+
+    .land {
+        position: absolute;
+        bottom: 0;
+        left: 240px;
+    }
+
+    .cloud2 {
+        position: absolute;
+        left: 70%;
+        top: 15%;
+
+    }
+
+    .text1 {
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+        font-family: 'Great Vibes', cursive;
+        color: #45b29a;
+        font-size: 30px;
+    }
+
+    .text2 {
+        text-align: center;
+        color: #45b29a;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .me {
+        position: absolute;
+        left: 550px;
+        top: 50px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .container2 {
+        height: 400px;
+        position: relative;
+    }
+
+    .text3 {
+        position: inherit;
+        text-align: center;
+        top: 230px;
+        color: #45b29a;
+    }
+
+    .text4 {
+        text-align: center;
+        position: inherit;
+        top: 230px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .container3 {
+        position: relative;
+        height: 600px;
+    }
+
+    .text5 {
+        color: #45b29a;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Almarai', sans-serif;
+    }
+
+    .me2 {
+        position: absolute;
+        left: 300px;
+        top: 15%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .text6 {
+        color: #45b29a;
+        text-align: center;
+        position: inherit;
+        left: 8.5%;
+        top: 5%;
+    }
+
+    .text7 {
+        text-align: center;
+        position: inherit;
+        top: 5%;
+        left: 10%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .me3 {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 850px;
+        top: 20em;
+    }
+
+    .text8 {
+        color: #45b29a;
+        position: inherit;
+        left: 25%;
+        top: 15%;
+    }
+
+    .text9 {
+        position: inherit;
+        top: 15%;
+        left: 25%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .container4 {
+        position: relative;
+        height: 400px;
+    }
+
+    .text10 {
+        color: #45b29a;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Almarai', sans-serif;
+    }
+
+    .text11 {
+        color: #45b29a;
+        text-align: center;
+        position: inherit;
+        left: 2%;
+    }
+
+    .text12 {
+        position: inherit;
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .about {
+        display: inline-block;
+        margin-left: 70%;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    .work {
+        display: inline-block;
+        margin-left: 2%;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    .notes {
+        display: inline-block;
+        margin-left: 2%;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    nav {
+        position: relative;
+        padding: 60px;
+        transition: 0.5s;
+    }
+
+    .me4 {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        margin-left: 80px;
+        margin-top: -20px;
+
+    }
+
+    .mail {
+        position: absolute;
+        height: 15px;
+        width: 24px;
+        margin-left: -35px;
+        margin-top: 4px;
+    }
+
+    .msg {
+        text-transform: uppercase;
+        background-color: #45b29a;
+        display: inline-block;
+        color: #1b7f69;
+        text-align: center;
+        margin-left: 536px;
+        margin-top: 41px;
+        padding: 15px;
+        width: 186px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .dribble {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: #45b29a;
+        font-size: 1.5em;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: 370px;
+    }
+
+    .twitter {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: #45b29a;
+        font-size: 1.5em;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: 50px;
+    }
+
+    .hearme {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: #45b29a;
+        font-size: 1.5em;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: 50px;
+    }
+
+    .p {
+        text-align: center;
+        color: #45b29a;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+    .nav{
+        padding: 30px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img class="me4" src="./me.svg" alt="">
+            <li class="about">About</li>
+            <li class="work">Work</li>
+            <li class="notes">Notes</li>
+        </nav>
+    </header>
+    <div class="container1">
+        <img class="cloud1" src="./cloud.svg">
+        <img class="land" src="./land.svg" alt="">
+        <img class="cloud2" src="./cloud.svg" alt="">
+        <div class="text1">
+            <h1>I'm Prashnat.</h1>
+        </div>
+        <div class="text2">
+            <p>a web designer</p>
+        </div>
+    </div>
+    <div class="container2">
+        <img class="me" src="./me.svg" alt="">
+        <div class="text3">
+            <h1>Hi.</h1>
+        </div>
+        <div class="text4">
+            <p>
+                I'm a web designer / developer based in Toronto, <br>Canada. I have a passion for web design and love
+                <br>to create for web and mobile devices.
+
+
+            </p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="text5">
+            <h1> <b>What I can do.</b></h1>
+        </div>
+        <img class="me2" src="./me.svg" alt="">
+        <div class="text6">
+            <h1>Design what you want.
+            </h1>
+        </div>
+        <div class="text7">
+            <p>I like to keep it simple. My goals are to focus on <br> typography, content and conveying the message
+                <br> that you want to send.
+
+            </p>
+        </div>
+        <img class="me3" src="./me-dev.svg" alt="">
+        <div class="text8">
+            <h1>Develop what you need</h1>
+        </div>
+        <div class="text9">
+            <p>I'm a developer, so I know how to create your <br> website to run across devices using the latest <br>
+                technologies available.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="text10">
+            <h1>I can help.</h1>
+        </div>
+        <div class="text11">
+            <h1>I’m currently available for freelance work.</h1>
+        </div>
+        <div class="text12">
+            <p>If you have a project that you want to get started, think you need my help <br> with something or just
+                fancy saying hey, then get in touch.</p>
+        </div>
+        <div class="msg"><img class="mail" src="./mail@2x.png" alt=""> message Me</div>
+    </div>
+    <footer style="background: #c5ded7;">
+        <nav class="nav">
+            <li class="dribble">dribble</li>
+            <li class="twitter">twitter</li>
+            <li class="hearme">hear me</li>
+        </nav>
+        <div class="p">&copy; 2023 Prashnat All rights reserved</div>
+    </footer>
+    <script type="text/javascript">
+        var lastScrollTop=0;
+            navbar = document .getElementsById("navbar");
+            window.addEventListener("scroll", function(){
+                var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+                if(scrollTop > lastScrollTop){
+                    navbar.style.top="-20px";
+                }else{
+                    navbar.style.top="0";
+                }
+                lastScrollTop = scrollTop;
+            })
+
+    </script>
+</body>
+
+</html>
